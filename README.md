@@ -10,7 +10,12 @@ The workshop solution uses the following AWS services:
 * Amazon S3 - object storage for hosting static web site content (HTML, CSS, JavaScript, images and other files).
 * Amazon DynamoDB - NoSQL database service used to provide a table to record the unicorn requests in a DynamoDB table.
 
+## Pre-requisites ##
+You'll need an AWS account to follow the [AWS Serverless Workshop](https://github.com/aws-samples/aws-serverless-workshops/).  I chose not to use the AWS CodeCommit and used GitHub instead, so the code modifications suggested in the workshop are already incorporated here.
+
 ## Troubleshooting Tips ##
+
+I've listed below some of the gotchas I encountered when I followed the [AWS Serverless Workshop](https://github.com/aws-samples/aws-serverless-workshops/).
 
 * If you don’t specify in #5 to check “Enable SRP (secure remote password) protocol based authentication (ALLOW_USER_SRP_AUTH)” in https://github.com/aws-samples/aws-serverless-workshops/tree/master/WebApplication/2_UserManagement, you get the following msg: "InvalidParameterException: USER_SRP_AUTH is not enabled for the client."
 
