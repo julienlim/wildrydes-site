@@ -21,6 +21,6 @@ I've listed below some of the gotchas I encountered when I followed the [AWS Ser
 
 * Refer to https://github.com/aws-samples/aws-serverless-workshops/tree/master/WebApplication/3_ServerlessBackend.  Change https://github.com/aws-samples/aws-serverless-workshops/blob/master/WebApplication/3_ServerlessBackend/requestUnicorn.js so that the "RideId" entries are written as "RideID", to match how it’s called in the Dynamo table.
 
-* When you “Request Unicorn” on the Seattle map, if you get “An error occurred when requesting your unicorn: {“Error”:”Authorization not configured”,”Refere4nce”:”32887bd9-7e8e-44…”}, fix your API Gateway settings -- see the following on how to fix it:  https://stackoverflow.com/questions/46185613/aws-api-gateway-method-test-error-authorization-not-configured.
+* When you “Request Unicorn” on the Seattle map, if you get “An error occurred when requesting your unicorn: {“Error”:”Authorization not configured”,”Reference”:”32887bd9-7e8e-44…”}, fix your API Gateway settings -- see the following on how to fix it:  https://stackoverflow.com/questions/46185613/aws-api-gateway-method-test-error-authorization-not-configured.
 
 
