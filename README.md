@@ -1,5 +1,8 @@
 # wildrydes-site
-This set of artifacts were created as part of the [AWS Serverless Workshop](https://github.com/aws-samples/aws-serverless-workshops/).  Click on the [AWS Serverless Workshop](https://github.com/aws-samples/aws-serverless-workshops/) to try it yourself!
+
+#### Build a Serverless Web Application with AWS Lambda, Amazon API Gateway, Amazon S3, Amazon DynamoDB, and Amazon Cognito ####
+
+This set of artifacts were created as part of the self-guided [AWS Serverless Workshop](https://github.com/aws-samples/aws-serverless-workshops/).  Click on the [AWS Serverless Workshop](https://github.com/aws-samples/aws-serverless-workshops/) to try it for yourself.
 
 ## Overview ##
 The workshop solution uses the following AWS services:
