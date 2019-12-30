@@ -23,7 +23,7 @@ WildRydes.map = WildRydes.map || {};
         var map = new Map({ basemap: 'gray-vector' });
 
         var view = new MapView({
-            center: [-71.09, 42.33],
+            center: [-71.15, 42.37],
             container: 'map',
             map: map,
             zoom: 12
